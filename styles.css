@@ -24,9 +24,15 @@ body {
   margin: 0;
   padding-bottom: 20px;
 }
-#p3{
-  font-size:500%;
+
+#p3 {
+  font-size:375%;
   color:#432b1e;
+  position: absolute;
+  top: 200px;
+  left: 180px;
+  width: 450px;
+  height: 90px;
 }
 
 
@@ -34,10 +40,6 @@ body {
 }
 #naam {
   background-color: #b79db9;
-}
-
-.divclass{
-  position: center;
 }
 
 ul#n {
