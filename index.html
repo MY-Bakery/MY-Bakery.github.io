@@ -27,10 +27,43 @@
 <div id="welcome">
   <p id="p3"> HANDMADE BAKED GOODS AND PASTRIES </p>
 </div>
-
-  <divclass="ordernow">
-  <id="buttonordernow"><a href="pagina2.html" class="Products">ORDER NOW</a></id>
   
+<div id="buttonordernow"><a href="pagina2.html" class="Products">ORDER NOW</a></div>
+
+
+<div class="slideshow">
+  <ul id="slayslides">
+  <img class="mySlides" src="https://th.bing.com/th/id/R.36d8178d242cc68c22b9191f71cf2247?rik=hVflxbHYi%2fzY3w&pid=ImgRaw&r=0" style="width:60%">
+  <img class="mySlides" src="https://i.pinimg.com/originals/70/c1/db/70c1db7f9b7e5e861427fe0eabb8de7a.jpg" style="width:78%">
+    
+  <button id="knop1" class="Links" onclick="plusDivs(-1)">&#10094;</button>
+  <button id="knop2" class="Rechts" onclick="plusDivs(1)">&#10095;</button>
+</div>
+
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}
+</script>
+
+<div class="footer">
+<p> MY Bakery | Pepernootjeslaan 4 | 5262 AX Amsterdam | 06123456789</p>
+</div>
+
 </body>
 
 </html>

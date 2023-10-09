@@ -10,7 +10,7 @@ body {
   text-align: center;
   font-size: 300%;
   color:#432b1e;
-  background-color: #b79db9;
+  background-color: #d69fc4;
   border: 2% solid #645c54;
   padding: 0.01%;
   margin: 0;
@@ -19,7 +19,7 @@ body {
 #p2 {
   text-align: center;
   color: #573839;
-   background-color: #b79db9;
+   background-color: #d69fc4;
   font-size: 130%;
   margin: 0;
   padding-bottom: 20px;
@@ -75,4 +75,166 @@ li a:hover {
 
 .Home {
   margin-left: 37%;
+}
+
+div#buttonordernow a {
+  display: block;
+text-decoration: none;
+  text-align: center;
+  color: white;
+  background-color: #bd89ac;
+  padding: 16px;
+  padding-bottom: 20px;
+  float: left;
+  border-radius: 25px;
+  border: 1px solid #46342b;
+  font-weight: bold;
+  font-size: 120%;
+position: absolute;
+  top: 525px;
+  left: 180px;
+  width: 140px;
+  height: 15px;
+}
+div#buttonordernow a:hover {
+  background-color: #805b73;
+}
+
+.footer {
+   color: white;
+  text-align: center;
+  font-size: 120%;
+  font-family: -apple-system;
+  background-color: #5a4b44;
+  position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+}
+
+ul#slayslides {
+  position: absolute;
+  top: 200px;
+  left: 900px;
+}
+
+#knop1 {
+  position: absolute;
+  top: 290px;
+  left: 15px;
+}
+#knop2 {
+  position: absolute;
+  top: 290px;
+  left: 621px;
+}
+
+#p4 {
+  background-color: #d69fc4;
+  padding: 15px;
+  float: left;
+  margin-left: 46%;
+  text-align: center;
+  font-size: 20px;
+  color: #46342b;
+  border: 1px solid #46342b;
+  font-weight: bold
+
+}
+
+div#pou a {
+display: block;
+text-decoration: none;
+  text-align: center;
+  color: #46342b;
+  background-color: #eec8e2;
+  border-radius: 25px;
+  border: 1px solid #46342b;
+  font-weight: bold;
+  font-size: 120%;
+  padding-top: 400px;
+  padding-bottom: 15px;
+  padding-left: 5px;
+  padding-right: 5px;
+  float: left;
+  width: 15%;
+  margin-top: 100px;
+  position: absolute;
+  top: 200px;
+  left: 22%;
+}
+  
+div#pou a:hover {
+  background-color: #e3c0d8
+}
+
+#pouimg {
+  display: block;
+  position: absolute;
+  top: 380px;
+  left: 25%;
+}
+
+div#barbie a {
+display: block;
+text-decoration: none;
+  text-align: center;
+  color: #46342b;
+  background-color: #eec8e2;
+  border-radius: 25px;
+  border: 1px solid #46342b;
+  font-weight: bold;
+  font-size: 120%;
+  padding-top: 400px;
+  padding-bottom: 15px;
+  padding-left: 5px;
+  padding-right: 5px;
+  float: left;
+  width: 15%;
+  margin-top: 100px;
+  position: absolute;
+  top: 200px;
+  left: 42%;
+}
+div#barbie a:hover {
+  background-color: #e3c0d8
+}
+
+#barbieimg {
+  display: block;
+  position: absolute;
+  top: 380px;
+  left: 46%;
+}
+
+div#egel a {
+display: block;
+text-decoration: none;
+  text-align: center;
+  color: #46342b;
+  background-color: #eec8e2;
+  border-radius: 25px;
+  border: 1px solid #46342b;
+  font-weight: bold;
+  font-size: 120%;
+  padding-top: 400px;
+  padding-bottom: 15px;
+  padding-left: 5px;
+  padding-right: 5px;
+  float: left;
+  width: 15%;
+  margin-top: 100px;
+  position: absolute;
+  top: 200px;
+  left: 62%;
+}
+div#egel a:hover {
+  background-color: #e3c0d8;
+}
+
+#egelimg {
+  display: block;
+  position: absolute;
+  top: 380px;
+  left: 66%;
 }
