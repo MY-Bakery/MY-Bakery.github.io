@@ -278,9 +278,24 @@ text-decoration: none;
 
 .reviewpic img {
   margin-top: 5%;
-  margin-left: auto;
-  margin-right: auto;
+  margin-left: 36%;
+  margin-right: 45%;
+  width: 500px;
+  height: 300px;
+}
+.aboutus {
+  font-size: 20px;
+  text-align: center; 
+  background: rgb(111, 85, 68);    
+  margin-left: 14%;     
+  margin-top: 5%;
+  padding-top: 1px;
   width: 400px;
   height: 300px;
-  
+  border-radius: 25px; 
 }
+
+#aboutustitle {
+  font-weight: bold;
+}
+
