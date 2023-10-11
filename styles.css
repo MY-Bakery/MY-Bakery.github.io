@@ -139,10 +139,15 @@ ul#slayslides {
   color: #46342b;
   border: 1px solid #46342b;
   font-weight: bold
-
 }
 
-div#pou a {
+#buttoncart {
+position: absolute;
+margin-top: 550px;
+margin-left: 525px;
+}
+
+div#pou {
 display: block;
 text-decoration: none;
   text-align: center;
@@ -163,10 +168,6 @@ text-decoration: none;
   top: 200px;
   left: 22%;
 }
-  
-div#pou a:hover {
-  background-color: #e3c0d8
-}
 
 #pouimg {
   display: block;
@@ -175,7 +176,7 @@ div#pou a:hover {
   left: 25%;
 }
 
-div#barbie a {
+div#barbie {
 display: block;
 text-decoration: none;
   text-align: center;
@@ -196,9 +197,6 @@ text-decoration: none;
   top: 200px;
   left: 42%;
 }
-div#barbie a:hover {
-  background-color: #e3c0d8
-}
 
 #barbieimg {
   display: block;
@@ -207,7 +205,7 @@ div#barbie a:hover {
   left: 46%;
 }
 
-div#egel a {
+div#egel {
 display: block;
 text-decoration: none;
   text-align: center;
@@ -228,13 +226,61 @@ text-decoration: none;
   top: 200px;
   left: 62%;
 }
-div#egel a:hover {
-  background-color: #e3c0d8;
-}
 
 #egelimg {
   display: block;
   position: absolute;
   top: 380px;
   left: 66%;
+}
+
+#review1 { 
+  font-weight: bold;
+  font-size: 20px;
+  text-align: center; 
+  background: rgb(111, 85, 68);    
+  float: left;
+  margin-left: 14%;     
+  margin-top: 5%;
+  padding-top: 1px;
+  width: 400px;
+  height: 125px;
+  border-radius: 25px;         
+  }
+
+#review2 { 
+  font-weight: bold;
+  font-size: 20px;
+  text-align: center; 
+  background: rgb(111, 85, 68);       
+  float: left;    
+  margin-left: 2%;
+  margin-top: 5%;
+  padding-top: 1px;
+  width: 400px;
+  height: 125px;
+  border-radius: 25px;         
+  }
+
+#review3 { 
+  font-weight: bold;
+  font-size: 20px;
+  text-align: center; 
+  background: rgb(111, 85, 68);       
+  float: left;    
+  margin-left: 2%;
+  margin-top: 5%;
+  padding-top: 1px;
+  width: 400px;
+  height: 125px;
+  border-radius: 25px;         
+  }
+
+#reviewpic img {
+  margin-top: 5%;
+  margin-left: 34%;
+  float: left;
+  width: 25%;
+  height: 20%
+  
 }
